@@ -2,6 +2,8 @@
 
 Little Android dynamic gradient background library
 
+![](https://raw.githubusercontent.com/thrashedbrain/GradientBackground/master/picture.gif)
+
 # Setup
 
 ## Add a gradle dependency
