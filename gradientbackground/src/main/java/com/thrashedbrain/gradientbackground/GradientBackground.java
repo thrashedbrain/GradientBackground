@@ -74,30 +74,11 @@ public class GradientBackground {
             drawable.setCornerRadius((float) radius);
             animationDrawable.addFrame(drawable, duration);
         }
-    }
-
-    public void start(LinearLayout linearLayout){
-        linearLayout.setBackground(animationDrawable);
-        animationDrawable.setEnterFadeDuration(5000);
-        animationDrawable.setExitFadeDuration(2500);
-    }
-
-    public void start(RelativeLayout relativeLayout){
-        relativeLayout.setBackground(animationDrawable);
-        animationDrawable.setEnterFadeDuration(5000);
-        animationDrawable.setExitFadeDuration(2500);
-    }
-
-    public void start(FrameLayout frameLayout){
-        frameLayout.setBackground(animationDrawable);
-        animationDrawable.setEnterFadeDuration(5000);
-        animationDrawable.setExitFadeDuration(2500);
+        animationDrawable.setExitFadeDuration(duration);
     }
 
     public void start(View view){
         view.setBackground(animationDrawable);
-        animationDrawable.setEnterFadeDuration(5000);
-        animationDrawable.setExitFadeDuration(2500);
     }
 
     public void onResume(){
