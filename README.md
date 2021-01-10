@@ -16,7 +16,7 @@ allprojects {
 ```
 
 ```
-implementation "com.thrashedbrain.gradientbackground:0,1-alpha"
+implementation 'com.github.thrashedbrain:GradientBackground:0.1'
 ```
 
 ## Usage 
