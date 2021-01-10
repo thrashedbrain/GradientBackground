@@ -3,9 +3,6 @@ package com.thrashedbrain.gradientbackground;
 import android.graphics.Color;
 import android.graphics.drawable.AnimationDrawable;
 import android.view.View;
-import android.widget.FrameLayout;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -74,10 +71,11 @@ public class GradientBackground {
             drawable.setCornerRadius((float) radius);
             animationDrawable.addFrame(drawable, duration);
         }
-        animationDrawable.setExitFadeDuration(duration);
+
     }
 
     public void start(View view){
+        animationDrawable.setExitFadeDuration(duration);
         view.setBackground(animationDrawable);
     }
 

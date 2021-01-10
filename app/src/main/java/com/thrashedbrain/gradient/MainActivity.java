@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         gradBg = new GradientBackground.Builder()
                 .addColor("#48cae4", "#023e8a")
                 .addColor("#006400", "#38b000")
-                .setDuration(10000)
+                .setDuration(8000)
                 .build();
         gradBg.init();
         gradBg.start(constraintLayout);
