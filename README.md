@@ -1,4 +1,4 @@
-# GradientBackground
+# GradientBackground [![](https://jitpack.io/v/thrashedbrain/GradientBackground.svg)](https://jitpack.io/#thrashedbrain/GradientBackground)
 
 Little Android dynamic gradient background library
 
